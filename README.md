@@ -33,8 +33,8 @@ Google 现在强制所有应用必须使用 Android App Bundle 格式发布，�
 
 ## 使用方法
 
-1. 将签名文件放到 `key/keystore.jks`
-2. 修改 `key.pwd` 内容为别名密码，`key.txt` 内容为别名，`keystore.pwd` 内容为 keystore 密码
+1. 将签名文件放到 `key/keystore.jks`。
+2. 修改 `key/key.pwd` 内容为别名密码，`key/key.txt` 内容为别名，`key/keystore.pwd` 内容为 keystore 密码。
 3. 将打包好的 AAB 改名为 `app.aab` 放到目录中。
 4. MuMu 模拟器，双击执行 `deploy-emulator-mumu.bat`。
 5. 夜神模拟器，双击执行 `deploy-emulator-yeshen.bat`。
